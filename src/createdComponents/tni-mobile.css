@@ -1,0 +1,534 @@
+/*---CSS MEDIA QUERY FOR MOBILE LAYOUT----*/
+
+@media screen and (max-width: 650px) {
+  html,
+  body {
+    font-family: "Segoe UI";
+    font-size: 16px;
+    max-width: 100%;
+    overflow-x: hidden; /* To hide user circle in the top right */
+    margin: 0;
+  }
+  .tniGame {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    /* overflow-x: hidden; 
+    overflow-y: auto; */
+    /* background-color: #f2f1ef; */
+    background-image: url(https://s.conceptjs.com/tni/Background.png);
+  }
+  .threeColsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .tniMenu {
+    min-width: 100vw;
+    list-style: none;
+    margin: 0;
+    padding: 108px 0 0 0;
+    display: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 2px;
+    max-height: 2px;
+    box-shadow: 1px 1px 1px white;
+    background-color: #ffffff;
+    color: #000000;
+    margin-left: 18%;
+  }
+
+  .tniMenu li {
+    padding: 0;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -10%;
+    border-right: 1px solid #ff8c00;
+    max-width: 13%;
+    min-width: 13%;
+    max-height: 33px;
+    padding: 0 1% 0 1%;
+    z-index: 1;
+  }
+
+  .tniMenu li:last-child {
+    border-right: 0px none;
+  }
+
+  /* .tniMenu li:first {
+    border-top: none;
+  } */
+
+  .tniMenuItem {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .tniMenuItem svg {
+    margin: 0 auto;
+  }
+
+  .tniMenuItem:hover {
+    background-color: #fce4c3;
+  }
+
+  .tniMenu h3 {
+    font-size: 12px;
+    margin: 8px 0 0 0;
+  }
+  .tniMenu li::after {
+    width: 0;
+    height: 0;
+  }
+
+  .tniHeader {
+    width: 100%;
+    max-height: 10%;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 1px 1px 6px #aaaaaa;
+    position: absolute;
+  }
+
+  .tniHeader img.tniLogo {
+    margin: 1% 1%;
+    max-width: 12%;
+    min-width: 12%;
+    max-height: 88%;
+    float: left;
+  }
+
+  .tniMessage {
+    text-align: center;
+    max-width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30%;
+  }
+  .tniMessage h1 {
+    display: flex;
+    max-height: 80%;
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+    font-size: 61%;
+    background-color: white;
+  }
+  .tniSidebar {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    order: 2;
+    margin-top: 7%;
+    align-items: flex-end;
+    width: 70%;
+    visibility: hidden;
+  }
+  .tniMain {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0 0 3vw;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+    margin-right: 4%;
+  }
+  .tniMain h4 {
+    border-bottom: 1px solid #facb88;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+  }
+  .tniTable {
+    min-height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .tniDrawPile.disabled {
+    opacity: 0.5;
+  }
+  .tniBackCard {
+    /* margin-right: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 212px;
+    height: 100%; */
+    border: 1px solid #facb88;
+    border-radius: 6px;
+    background-color: #f2f1f0;
+    /* padding: 1vw 1vw 0vw 0vw; */
+    padding: 16px 24px 0 16px;
+  }
+  .tniCard {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+  }
+
+  .tniCard.draggable.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .tniCard.draggable.disabled:hover {
+    transform: initial;
+    transition: initial;
+  }
+  .tniDiscard {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    align-self: flex-end;
+    border: 1px solid #facb88;
+    border-radius: 6px;
+    background-color: #f2f1f0;
+    /* padding: 1vw 1vw 0vw 1.5vw; */
+    padding: 12px 6px 6px 18px;
+  }
+
+  .tniDiscard .tniCard {
+    transform: rotate(-5deg);
+  }
+
+  .tniCard.clickable {
+    cursor: pointer;
+  }
+
+  .tniCard.draggable {
+    cursor: grab;
+  }
+
+  .tniCard.clickable:hover,
+  .tniCard.draggable:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .tniCard .cardText {
+    text-align: center;
+    width: 75%;
+    word-break: break-word;
+  }
+
+  .tniCard-lg {
+    height: 400px;
+    width: 200px;
+  }
+
+  .tniCard-lg .cardText {
+    font-size: 18px;
+    padding: 0 61px 30px 40px;
+    font-weight: 200;
+  }
+
+  .tniCard-md {
+    /* height: 315px; */
+    height: 151px;
+    min-width: 107px;
+    width: 100px;
+  }
+
+  .tniCard-md .cardText {
+    font-size: 8px;
+    padding: 0 20px 8px 13px;
+    font-weight: 500;
+  }
+
+  .tniCard-sm {
+    height: 151px;
+    width: 100px;
+  }
+
+  .tniCard-sm .cardText {
+    font-size: 8px;
+    padding: 0 15px 8px 10px;
+    font-weight: 100;
+  }
+
+  .tniCard-xs {
+    height: 80px;
+    width: 20px;
+  }
+
+  .tniCard-xs.tniDeckCard {
+    width: 174px;
+    border: 1px solid #facb88;
+    border-radius: 6px;
+    background-color: #f2f1f0;
+  }
+  .tniCard-xs .cardText {
+    font-size: 9px;
+    padding: 0 24px 12px 18px;
+  }
+
+  .tniWhiteCard .cardText {
+    color: #000000;
+  }
+
+  .tniBlackCard .cardText {
+    color: #ffffff;
+    opacity: 0.8;
+    text-align: center;
+  }
+  .tniMyself {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    visibility: visible;
+    align-items: center;
+    justify-content: center;
+    max-height: 10vh;
+    order: 2;
+    box-shadow: 0px 0px 0px #aaaaaa;
+    margin-right: -39%;
+    background-color: white;
+
+    /*
+    display: flex;
+    flex-direction: column;
+    min-width: 240px;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+  */
+  }
+
+  .tniMyself .profile {
+    height: 58%;
+    width: 49%;
+    border-radius: 64px;
+    border: 1px solid #f99004;
+    opacity: 1;
+    margin-top: 1vh;
+  }
+  .tniMyself.active .profile {
+    opacity: 1;
+  }
+
+  .tniMyself h2 {
+    font-size: 12px;
+    font-weight: 600;
+    height: 5vh;
+    color: #000;
+    margin: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+  }
+
+  .tniMyself.active h2 {
+    opacity: 1;
+  }
+
+  .tniPlayers {
+    flex: 1 1 auto;
+    list-style: none;
+    display: none;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #f2f1f0;
+    box-shadow: 1px 1px 5px #aaaaaa;
+  }
+
+  .tniPlayers li {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    max-width: 20%;
+  }
+
+  .tniPlayers li.clickable {
+    cursor: pointer;
+  }
+
+  /* .tniPlayers li.active {
+    background-color: #facb88;
+  } */
+
+  .tniPlayers li.playing {
+    font-weight: 600;
+    opacity: 1;
+  }
+
+  .tniPlayers li:first {
+    border-top: none;
+  }
+
+  .tniPlayers .player {
+    height: 4%;
+    width: 4.5vw;
+    border-radius: 32px;
+    border: 1px solid #f99004;
+  }
+
+  .tniPlayers h4 {
+    font-size: 11px;
+    font-weight: bold;
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  .tniScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1%;
+  }
+
+  .tniScoreCount {
+    display: flex;
+    border: 1px solid #facb88;
+    padding: 2px 11px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 25px;
+  }
+  .tniCardsInPlay {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 0 0;
+    align-items: center;
+    flex-direction: column;
+    order: 3;
+  }
+  .tniDrawPile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+    margin-right: 12%;
+  }
+  .tniCardsInPile {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tniCardsInHand {
+    display: flex;
+    border: 1px solid #facb88;
+    border-radius: 6px;
+    background-color: #f2f1f0;
+    width: 64vw;
+    align-items: center;
+    justify-content: end;
+    padding: 0 20px 0 20px;
+    flex-wrap: nowrap;
+    min-height: 170px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    /* background-image: linear-gradient(to right, #f2f1f0, #f2f1f0),
+      linear-gradient(to right, #f2f1f0, #f2f1f0),
+      linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0)),
+      linear-gradient(to left, rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0));
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-color: #f2f1f0;
+    background-size: 20px 100%, 20px 100%, 10px 100%, 10px 100%;
+    background-attachment: local, local, scroll, scroll; */
+    -ms-overflow-style: none;
+  }
+
+  .tniCardsInHand.disabled {
+    opacity: 0.5;
+  }
+  .tniChair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .tniCardsInHand .tniCard-sm {
+    height: 151px;
+    min-width: 107px;
+  }
+  .tniTable .tniCard-sm {
+    height: 151px;
+    min-width: 107px;
+  }
+  .tniAutoReload {
+    visibility: hidden;
+    width: 3%;
+    height: 2.4vh;
+    background-color: #f99004;
+    position: absolute;
+    display: flex;
+    border-radius: 50px;
+    padding: 2px;
+    border: 1 px solid white;
+    margin-top: 17px;
+    margin-left: 35px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+  }
+  .tniFaceUpCards {
+    /* margin-left: 5%; */
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    overflow: auto;
+    justify-content: end;
+    border: 1px solid #facb88;
+    border-radius: 6px;
+    background-color: #f2f1f0;
+    /* padding: 1vw 1vw 0vw 1.5vw; */
+    padding: 16px 12px 0 24px;
+
+    /* background-image: linear-gradient(to right, #f2f1f0, #f2f1f0),
+      linear-gradient(to right, #f2f1f0, #f2f1f0),
+      linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0)),
+      linear-gradient(to left, rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0));
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-color: #f2f1f0;
+    background-size: 20px 100%, 20px 100%, 10px 100%, 10px 100%;
+    background-attachment: local, local, scroll, scroll; */
+    -ms-overflow-style: none;
+  }
+  .tniFaceUpCards::-webkit-scrollbar {
+    width: 0 !important;
+  }
+
+  .tniCardsInHand::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  .tniChair .tniCard:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+  }
+}

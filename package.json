@@ -1,0 +1,40 @@
+{
+  "name": "toast-tracker",
+  "version": "1.0.0",
+  "description": "Tni Toast tracker",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "4.9.1",
+    "@material-ui/icons": "4.9.1",
+    "clx": "1.0.0",
+    "fireworks": "2.2.6",
+    "intro.js": "2.9.3",
+    "intro.js-react": "0.2.0",
+    "jquery": "3.4.1",
+    "prop-types": "15.7.2",
+    "react": "16.12.0",
+    "react-beautiful-dnd": "12.2.0",
+    "react-dom": "16.12.0",
+    "react-dom-confetti": "0.2.0",
+    "react-scripts": "3.0.1",
+    "react-sparkle": "1.0.6",
+    "react-toastify": "6.0.5",
+    "underscore": "1.9.2"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

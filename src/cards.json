@@ -1,0 +1,541 @@
+{
+  "stateStack": ["QUESTION"],
+  "drawCt": 1,
+  "newBlack": true,
+  "reverse": true,
+  "table": [
+    {
+      "type": "BLACK",
+      "text": "I got 99 problems but _____ is my biggest one.",
+      "uri": "/microsoftdev/tni/XVl_RJPeHM9yvaLMv0qTKC/"
+    }
+  ],
+  "deck": [
+    {
+      "type": "WHITE",
+      "text": "data insights",
+      "uri": "/microsoftdev/tni/oweGuk9kLJ9qiK2LHsDdV9/"
+    },
+    {
+      "type": "REVERSE_AND_DISCARD",
+      "text": "Reverse and discard a card",
+      "uri": "/microsoftdev/tni/fp3rbZcLRZ9Fy4HEgyHGr9/"
+    },
+    {
+      "type": "WHITE",
+      "text": "making sense from mega trends and having actionable insights",
+      "uri": "/microsoftdev/tni/xEf_2CbckMApTq3zFEf2Z1/"
+    },
+    {
+      "type": "WHITE",
+      "text": "real-time information",
+      "uri": "/microsoftdev/tni/OTX4KYDLrRBIVaAYu0CRp8/"
+    },
+    {
+      "type": "BLACK",
+      "text": "Our next business model focuses on _____.",
+      "uri": "/microsoftdev/tni/hBtPDy4y5n8O-KBRPju8N7/"
+    },
+    {
+      "type": "BLACK",
+      "text": "For my insight needs, I wish I had _____.",
+      "uri": "/microsoftdev/tni/ZW2L21BigMA9O4sU68xR81/"
+    },
+    {
+      "type": "WHITE",
+      "text": "on premise databases",
+      "uri": "/microsoftdev/tni/VyEDlUvIkx9WqqMJF8UqoB/"
+    },
+    {
+      "type": "WHITE",
+      "text": "increasing competition",
+      "uri": "/microsoftdev/tni/M_Eb7LsSW59SkqAiUoR609/"
+    },
+    {
+      "type": "WHITE",
+      "text": "agility",
+      "uri": "/microsoftdev/tni/uHGX8rngyG9EvqrwNBkan3/"
+    },
+    {
+      "type": "WHITE",
+      "text": "changes in personnel",
+      "uri": "/microsoftdev/tni/jQzU7ba6mn9naqJUvZNd76/"
+    },
+    {
+      "type": "TRUTH_AND_NEXT_2",
+      "text": "Play a truth card & next player draw 2 cards",
+      "uri": "/microsoftdev/tni/WdPkDw0YNT8sHKSOYVONMA/"
+    },
+    {
+      "type": "WHITE",
+      "text": "productivity tools",
+      "uri": "/microsoftdev/tni/AMyDPSkpBWBeo4YalWMPNC/"
+    },
+    {
+      "type": "WHITE",
+      "text": "a one stop shop",
+      "uri": "/microsoftdev/tni/fk6GsKpwU4Abm4wYZnm1gA/"
+    },
+    {
+      "type": "WHITE",
+      "text": "pricing volatility",
+      "uri": "/microsoftdev/tni/hL4hliMi3U9E34Pn_6PulB/"
+    },
+    {
+      "type": "TRUTH_AND_NEXT_2",
+      "text": "Play a truth card & next player draw 2 cards",
+      "uri": "/microsoftdev/tni/WdPkDw0YNT8sHKSOYVONMA/"
+    },
+    {
+      "type": "WHITE",
+      "text": "supply chain disruption",
+      "uri": "/microsoftdev/tni/0OzqyYleEg9Yk4gTUIxZC3/"
+    },
+    {
+      "type": "SKIP_AND_DISCARD",
+      "text": "Skip and Discard",
+      "uri": "/microsoftdev/tni/cuQF-5d4atBZCa1oJRVWW3/"
+    },
+    {
+      "type": "WHITE",
+      "text": "poor business choices",
+      "uri": "/microsoftdev/tni/-gzSqgwHcUAaZK7BKnOCf6/"
+    },
+    {
+      "type": "TRUTH_AND_NEXT_4",
+      "text": "Play a truth card & next player draw 4 cards",
+      "uri": "/microsoftdev/tni/hMMxKzZzS29HvKzNCioa44/"
+    },
+    {
+      "type": "BLACK",
+      "text": "_____ constrains my business from moving to our desired future state of strategic initiatives. ",
+      "uri": "/microsoftdev/tni/wpPHHmsSdWAUG4CZrdvZyB/"
+    },
+    {
+      "type": "WHITE",
+      "text": "difficult to use software",
+      "uri": "/microsoftdev/tni/IExxKhKj3SBrn4w5vyBon5/"
+    },
+    {
+      "type": "WHITE",
+      "text": "cyber threats and attacks",
+      "uri": "/microsoftdev/tni/IF-O6yh1Mh92SqASnma6V0/"
+    },
+    {
+      "type": "BLACK",
+      "text": "My biggest business concerns are _____. ",
+      "uri": "/microsoftdev/tni/ilQobdEzvSAE1as4bWUkc2/"
+    },
+    {
+      "type": "BLACK",
+      "text": "My business relies on _____. ",
+      "uri": "/microsoftdev/tni/4sI3e8o_DjAzQq4MzFqPZ7/"
+    },
+    {
+      "type": "WHITE",
+      "text": "integration problems",
+      "uri": "/microsoftdev/tni/Gl7mR1ljBlABgaI9E6YCW9/"
+    },
+    {
+      "type": "WHITE",
+      "text": "accurate analysis",
+      "uri": "/microsoftdev/tni/LUMMiCge5xBFpKkLD3KMvC/"
+    },
+    {
+      "type": "WHITE",
+      "text": "freemium with pay to upgrade",
+      "uri": "/microsoftdev/tni/PJVumxCays9WLK6rraAFcD/"
+    },
+    {
+      "type": "WHITE",
+      "text": "improving the customer experience",
+      "uri": "/microsoftdev/tni/vEK9WmAFIUBoj4hmci-8a2/"
+    },
+    {
+      "type": "WHITE",
+      "text": "building relationships with customers",
+      "uri": "/microsoftdev/tni/vAwir9x9fLBUCK4fKSRjiA/"
+    },
+    {
+      "type": "TRUTH_AND_NEXT_2",
+      "text": "Play a truth card & next player draw 2 cards",
+      "uri": "/microsoftdev/tni/WdPkDw0YNT8sHKSOYVONMA/"
+    },
+    {
+      "type": "REVERSE_AND_DISCARD",
+      "text": "Reverse and discard a card",
+      "uri": "/microsoftdev/tni/fp3rbZcLRZ9Fy4HEgyHGr9/"
+    },
+    {
+      "type": "BLACK",
+      "text": "Our customers would be willing to pay extra for _____. ",
+      "uri": "/microsoftdev/tni/UcELTbVLp6AoIKrLLVNFp4/"
+    },
+    {
+      "type": "WHITE",
+      "text": "innovatively creating value for all those involved in our customer ecosystem",
+      "uri": "/microsoftdev/tni/nbxsjEHqws8prK0dUDV1g3/"
+    },
+    {
+      "type": "WHITE",
+      "text": "providing a consistent experience both online and off",
+      "uri": "/microsoftdev/tni/AUxw3pfv-99KDa6tN7Rw50/"
+    },
+    {
+      "type": "TRUTH_AND_NEXT_4",
+      "text": "Play a truth card & next player draw 4 cards",
+      "uri": "/microsoftdev/tni/hMMxKzZzS29HvKzNCioa44/"
+    },
+    {
+      "type": "WHITE",
+      "text": "attracting new customers",
+      "uri": "/microsoftdev/tni/U6eDRVHwub9Y9qkN81tXE2/"
+    },
+    {
+      "type": "SKIP_AND_DISCARD_2",
+      "text": "Discard 2 cards",
+      "uri": "/microsoftdev/tni/PdUMmu8url8PPqhrS30q84/"
+    },
+    {
+      "type": "WHITE",
+      "text": "high operational costs",
+      "uri": "/microsoftdev/tni/XMCfdjQ-5LAhh4pn1iZ380/"
+    },
+    {
+      "type": "WHITE",
+      "text": "extra features",
+      "uri": "/microsoftdev/tni/EO5OKdUpJ282z4JhUJ-QiD/"
+    },
+    {
+      "type": "WHITE",
+      "text": "automating/streamlining back-office processes",
+      "uri": "/microsoftdev/tni/04FyV-1Ufc8R3qU3a_nTN7/"
+    },
+    {
+      "type": "BLACK",
+      "text": "Our strategic initiatives are _____. ",
+      "uri": "/microsoftdev/tni/GKacID-uFAAtraaKab5Lg4/"
+    },
+    {
+      "type": "WHITE",
+      "text": "gaining real-time insight",
+      "uri": "/microsoftdev/tni/AM7O-cHpL3BOCKGbNQlXz0/"
+    },
+    {
+      "type": "TRUTH_AND_NEXT_2",
+      "text": "Play a truth card & next player draw 2 cards",
+      "uri": "/microsoftdev/tni/WdPkDw0YNT8sHKSOYVONMA/"
+    },
+    {
+      "type": "WHITE",
+      "text": "customer engagement",
+      "uri": "/microsoftdev/tni/Ng1MvmgaI-BBQ4dwz3vOS8/"
+    },
+    {
+      "type": "BLACK",
+      "text": "I feel lost in _____. ",
+      "uri": "/microsoftdev/tni/FDdrxPn3dEBt7ap7tokKmB/"
+    },
+    {
+      "type": "WHITE",
+      "text": "disconnected data",
+      "uri": "/microsoftdev/tni/doU35aBjlOARkaYl9LC4c3/"
+    },
+    {
+      "type": "WHITE",
+      "text": "innovating",
+      "uri": "/microsoftdev/tni/6xBpiUj2-aBeQqHPV7A8BE/"
+    },
+    {
+      "type": "WHITE",
+      "text": "inefficient monitoring capabilities",
+      "uri": "/microsoftdev/tni/y0nEo801ix95_4O8tfzKrA/"
+    },
+    {
+      "type": "REVERSE_AND_DISCARD",
+      "text": "Reverse and discard a card",
+      "uri": "/microsoftdev/tni/fp3rbZcLRZ9Fy4HEgyHGr9/"
+    },
+    {
+      "type": "REVERSE_AND_DISCARD",
+      "text": "Reverse and discard a card",
+      "uri": "/microsoftdev/tni/fp3rbZcLRZ9Fy4HEgyHGr9/"
+    },
+    {
+      "type": "WHITE",
+      "text": "decreasing expenses",
+      "uri": "/microsoftdev/tni/3Mkn8Naa3fAv3q8wG4HyeF/"
+    },
+    {
+      "type": "SKIP_AND_DISCARD",
+      "text": "Skip and Discard",
+      "uri": "/microsoftdev/tni/cuQF-5d4atBZCa1oJRVWW3/"
+    },
+    {
+      "type": "BLACK",
+      "text": "For our customer experience, I’m interested in _____. ",
+      "uri": "/microsoftdev/tni/UMVeuelVTDAR9qGOE4gAP0/"
+    },
+    {
+      "type": "WHITE",
+      "text": "more awareness",
+      "uri": "/microsoftdev/tni/4fHd_a6V-hA644UM5MT2o9/"
+    },
+    {
+      "type": "BLACK",
+      "text": "Some of the ways we look to evolve include _____.",
+      "uri": "/microsoftdev/tni/Tpz400xfaw9XcKK_20qusB/"
+    },
+    {
+      "type": "BLACK",
+      "text": "One thing we could do without is _____. ",
+      "uri": "/microsoftdev/tni/fJ0dEUIhIF9GX4wqjmaCY9/"
+    },
+    {
+      "type": "TRUTH_AND_NEXT_2",
+      "text": "Play a truth card & next player draw 2 cards",
+      "uri": "/microsoftdev/tni/WdPkDw0YNT8sHKSOYVONMA/"
+    },
+    {
+      "type": "WHITE",
+      "text": "connecting better with customers",
+      "uri": "/microsoftdev/tni/QbFZ2A_UvsAJSKWELfUTM9/"
+    },
+    {
+      "type": "WHITE",
+      "text": "insufficient information",
+      "uri": "/microsoftdev/tni/zvA8cdPqaSAWGq7RhSRq92/"
+    },
+    {
+      "type": "WHITE",
+      "text": "insufficient threat protection",
+      "uri": "/microsoftdev/tni/wJUeVpMvnT91mK3PMdMkXC/"
+    },
+    {
+      "type": "WHITE",
+      "text": "increasing customer satisfaction",
+      "uri": "/microsoftdev/tni/1orzEciJs49FCahPZkZT75/"
+    },
+    {
+      "type": "TRUTH_AND_NEXT_2",
+      "text": "Play a truth card & next player draw 2 cards",
+      "uri": "/microsoftdev/tni/WdPkDw0YNT8sHKSOYVONMA/"
+    },
+    {
+      "type": "WHITE",
+      "text": "performance issues",
+      "uri": "/microsoftdev/tni/26jnDbEwGd9pQqKat74dr3/"
+    },
+    {
+      "type": "BLACK",
+      "text": "I’d like to transform our _____. ",
+      "uri": "/microsoftdev/tni/3-SUTqE7zy9acKmyiIGTgA/"
+    },
+    {
+      "type": "BLACK",
+      "text": "_____ will optimize our operations significantly. ",
+      "uri": "/microsoftdev/tni/YZn59ZFwU0Aez42ico723C/"
+    },
+    {
+      "type": "TRUTH_AND_NEXT_4",
+      "text": "Play a truth card & next player draw 4 cards",
+      "uri": "/microsoftdev/tni/hMMxKzZzS29HvKzNCioa44/"
+    },
+    {
+      "type": "WHITE",
+      "text": "siloed operations",
+      "uri": "/microsoftdev/tni/aNjwbBY9mH8aw4pmmkFa13/"
+    },
+    {
+      "type": "WHITE",
+      "text": "increasing expenses",
+      "uri": "/microsoftdev/tni/5U788XOZIdBamqYK4ue4V0/"
+    },
+    {
+      "type": "SKIP_AND_DISCARD_2",
+      "text": "Discard 2 cards",
+      "uri": "/microsoftdev/tni/PdUMmu8url8PPqhrS30q84/"
+    },
+    {
+      "type": "WHITE",
+      "text": "overcoming legacy solutions",
+      "uri": "/microsoftdev/tni/w4zJSawoEKBof4qi8M5pXE/"
+    },
+    {
+      "type": "SKIP_AND_DISCARD",
+      "text": "Skip and Discard",
+      "uri": "/microsoftdev/tni/cuQF-5d4atBZCa1oJRVWW3/"
+    },
+    {
+      "type": "WHITE",
+      "text": "irrelevant sales offers",
+      "uri": "/microsoftdev/tni/3t2GwdIEWGAmWqNKm7o46C/"
+    },
+    {
+      "type": "WHITE",
+      "text": "delaying delivery",
+      "uri": "/microsoftdev/tni/sE_CINbEUo9f8qWYsF12E1/"
+    },
+    {
+      "type": "TRUTH_AND_NEXT_4",
+      "text": "Play a truth card & next player draw 4 cards",
+      "uri": "/microsoftdev/tni/hMMxKzZzS29HvKzNCioa44/"
+    },
+    {
+      "type": "BLACK",
+      "text": "_____ is impeding us from engaging with our customers better. ",
+      "uri": "/microsoftdev/tni/eALRzbzDA5BXoKXcl-s9OD/"
+    },
+    {
+      "type": "WHITE",
+      "text": "bureaucratic red tape",
+      "uri": "/microsoftdev/tni/pXZo7bs5Vl9Bx4bWf9z9RE/"
+    },
+    {
+      "type": "BLACK",
+      "text": "_____ will improve our operational efficiency. ",
+      "uri": "/microsoftdev/tni/K_CylhDhOKAtnay35A1SeA/"
+    },
+    {
+      "type": "BLACK",
+      "text": "_____ will improve our employee empowerment. ",
+      "uri": "/microsoftdev/tni/jDCxIYHb6b8gKqHVYVHaa9/"
+    },
+    {
+      "type": "WHITE",
+      "text": "poor monitoring capabilities",
+      "uri": "/microsoftdev/tni/y6gWqwh6nAB8maHhtVPtUC/"
+    },
+    {
+      "type": "SKIP_AND_DISCARD_2",
+      "text": "Discard 2 cards",
+      "uri": "/microsoftdev/tni/PdUMmu8url8PPqhrS30q84/"
+    },
+    {
+      "type": "WHITE",
+      "text": "marketing insights",
+      "uri": "/microsoftdev/tni/KEeVlDdFdD8Yd4J056ozZ0/"
+    },
+    {
+      "type": "BLACK",
+      "text": "Our customers’ successes are tied to _____. ",
+      "uri": "/microsoftdev/tni/X7tfFGxZOW9vzqCzCattq6/"
+    },
+    {
+      "type": "WHITE",
+      "text": "improving experiences",
+      "uri": "/microsoftdev/tni/xkrVCUI_eIBTmKXREhKLF7/"
+    },
+    {
+      "type": "WHITE",
+      "text": "improving ordering experience",
+      "uri": "/microsoftdev/tni/btUohh7-9YBcRq93oXy912/"
+    },
+    {
+      "type": "WHITE",
+      "text": "learning about best practice sharing",
+      "uri": "/microsoftdev/tni/4NF3Jb-IHM899qfQoTo4XF/"
+    },
+    {
+      "type": "SKIP_AND_DISCARD_2",
+      "text": "Discard 2 cards",
+      "uri": "/microsoftdev/tni/PdUMmu8url8PPqhrS30q84/"
+    },
+    {
+      "type": "WHITE",
+      "text": "embedded connectivity",
+      "uri": "/microsoftdev/tni/NQ4uX48U669-HqEdRbd2Y4/"
+    },
+    {
+      "type": "WHITE",
+      "text": "insecure platforms",
+      "uri": "/microsoftdev/tni/3bK87yG80HAlVagTpsFch6/"
+    },
+    {
+      "type": "WHITE",
+      "text": "decreasing time-to-market",
+      "uri": "/microsoftdev/tni/aNefwZb7Ir97wqTTMReLxF/"
+    },
+    {
+      "type": "WHITE",
+      "text": "budgeting",
+      "uri": "/microsoftdev/tni/Ars67Ey5ExBwNK2kNIqkX8/"
+    },
+    {
+      "type": "WHITE",
+      "text": "service disruptions",
+      "uri": "/microsoftdev/tni/eIed_I24kU99iKkOVrxCTA/"
+    },
+    {
+      "type": "WHITE",
+      "text": "predictive analytics",
+      "uri": "/microsoftdev/tni/UqnDIYSryY9xu4G8gUKF06/"
+    }
+  ],
+  "hands": [
+    {
+      "cards": [
+        {
+          "type": "WHITE",
+          "text": "linear changes",
+          "uri": "/microsoftdev/tni/etX9YNrLxy9-F4POvtenaF/"
+        },
+        {
+          "type": "WHITE",
+          "text": "creating new models with analytics or embedded technology",
+          "uri": "/microsoftdev/tni/RQn7feS9crBxzKgRgZ0C52/"
+        },
+        {
+          "type": "WHITE",
+          "text": "changes in regulation",
+          "uri": "/microsoftdev/tni/bNRHBfLXmd8NZaYorXm7z6/"
+        },
+        {
+          "type": "WHITE",
+          "text": "an increase in call volumes",
+          "uri": "/microsoftdev/tni/eOuOpo2IxG9KF4kk6oPH63/"
+        },
+        {
+          "type": "WHITE",
+          "text": "inefficient collaboration",
+          "uri": "/microsoftdev/tni/CesSZXGVRbApv4gO_5n95B/"
+        },
+        {
+          "type": "BLACK",
+          "text": "I lose a lot of time to/on _____. ",
+          "uri": "/microsoftdev/tni/JttfI2XfNl8kCaTsvTKX2D/"
+        },
+        {
+          "type": "BLACK",
+          "text": "_____ hampers our ability to compete against competitors. ",
+          "uri": "/microsoftdev/tni/WpiFvfOQyN8E0qX-jLUjW5/"
+        },
+        {
+          "type": "WHITE",
+          "text": "high-stressed employees",
+          "uri": "/microsoftdev/tni/GtiEfXnYYY9uaa-1eGPyw0/"
+        },
+        {
+          "type": "WHITE",
+          "text": "manual processes",
+          "uri": "/microsoftdev/tni/cHLeWl_GO98Jo4omXIfTl5/"
+        },
+        {
+          "type": "WHITE",
+          "text": "potential product deficiencies",
+          "uri": "/microsoftdev/tni/1leBlNbD6U9kSq0UeurxIF/"
+        },
+        {
+          "type": "BLACK",
+          "text": "I lack insight into _____. ",
+          "uri": "/microsoftdev/tni/XLPxJuyBzSA_wK4kj1d0R1/"
+        },
+        {
+          "type": "SKIP_AND_DISCARD",
+          "text": "Skip and Discard",
+          "uri": "/microsoftdev/tni/cuQF-5d4atBZCa1oJRVWW3/"
+        }
+      ]
+    }
+  ]
+}
